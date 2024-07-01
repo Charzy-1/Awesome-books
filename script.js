@@ -29,9 +29,8 @@ function addBook(title, author) {
 
   displayBooks(); // calls the display book function to update displayed books
 }
-
 /* eslint-disable no-unused-vars */
-// Function to remove book (corrected spelling)
+// Function to remove sbook
 function removeBook(index) {
   books = books.filter((_, i) => i !== index);
   // (_, i) =>  index of each book in the collection. index parameter tells us which book to remove.
