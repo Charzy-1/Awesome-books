@@ -30,7 +30,7 @@ function addBook(title, author) {
   displayBooks(); // calls the display book function to update displayed books
 }
 
-
+/* eslint-disable no-unused-vars */
 // Function to remove sbook
 function removeBook(index) {
   books = books.filter((_, i) => i !== index);
